@@ -9,7 +9,7 @@ export const App = () => (
     <div className="page">
       <div className="page-content">
         <h1>MovieList</h1>
-        <MovieList moviesFromServer={moviesFromServer} />
+        <MovieList movies={moviesFromServer} />
       </div>
 
       <div className="sidebar" data-cy="Sidebar">
